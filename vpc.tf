@@ -1,6 +1,6 @@
 module "vpc" {
-  #source = "terraform-aws-modules/vpc/aws"
-  source = "https://github.com/rmdwyer/terraform-aws-vpc"
+  source = "terraform-aws-modules/vpc/aws"
+  #source = "https://github.com/rmdwyer/terraform-aws-vpc"
 
   name = "my-vpc"
   cidr = "10.0.0.0/16"
